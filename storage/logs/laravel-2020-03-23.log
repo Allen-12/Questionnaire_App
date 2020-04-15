@@ -1,0 +1,9 @@
+[2020-03-23 13:04:50] local.ERROR: Command "app" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"app\" is not defined. at C:\\Users\\allen\\Documents\\SCHOOL\\ICS\\Third Year\\sample-project\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\allen\\Documents\\SCHOOL\\ICS\\Third Year\\sample-project\\vendor\\symfony\\console\\Application.php(235): Symfony\\Component\\Console\\Application->find('app')
+#1 C:\\Users\\allen\\Documents\\SCHOOL\\ICS\\Third Year\\sample-project\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\allen\\Documents\\SCHOOL\\ICS\\Third Year\\sample-project\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\allen\\Documents\\SCHOOL\\ICS\\Third Year\\sample-project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\allen\\Documents\\SCHOOL\\ICS\\Third Year\\sample-project\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
